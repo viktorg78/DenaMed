@@ -37,7 +37,7 @@ address{
 }
 
 body {
-    padding:50px 0px 0px 0px;
+    padding:65px 0px 0px 0px;
     z-index:0;
     font-family: 'MS Serif', serif;
 }
@@ -65,7 +65,7 @@ h3 a:hover {
 
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: bold;
 }
 

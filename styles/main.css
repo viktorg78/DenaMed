@@ -1,0 +1,129 @@
+:root {
+  --main-color: #EB4C19;
+  --main-light: #F57851;
+  --main-text-color: #992B08;
+  --main-background-color: #F59A7D;
+  --additional-background-color:#B0573A;
+  --accent-green: #066B38;
+  --accent-green-light: #6BD29E;
+}
+
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:300px;
+}
+
+.footer{
+    background-color: var(--main-background-color);
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer a {
+  color: var(--main-text-color);
+}
+
+address{
+    font-size:95%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+body {
+    padding:65px 0px 0px 0px;
+    z-index:0;
+    font-family: 'MS Serif', serif;
+}
+
+h1, h2, h3, h3 a, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: var(--main-text-color);
+}
+
+h3 a:hover {
+  color: var(--accent-green)
+}
+
+.navbar {
+     background: linear-gradient(to right, var(--main-background-color), var(--main-light));   
+     color: var(--main-text-color);
+     opacity: 0.95;
+}
+
+.navbar a {
+  color: var(--main-text-color);
+  margin-right: 1em;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: white;
+  background-color: var(--additional-background-color);
+  border-radius: 50px;
+  transition-property: color, background-color;
+  transition-duration: .5s;
+}
+
+.btn {
+  color: var(--accent-green-light);
+  border-color: white;
+}
+
+.btn:hover {
+  color: var(--accent-green);
+  border-color: var(--accent-green);
+  background-color: var(--accent-green-light);
+}
+
+.btn:focus {
+  color: var(--accent-green);
+  border-color: var(--accent-green);
+  background-color: var(--accent-green-light);
+  box-shadow: none;
+}
+
+.btn:active {
+  color: var(--main-text-color);
+  border-color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  box-shadow: none;
+}
+
+h3 {
+  color: var(--main-text-color);
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 2em auto;
+}
+
+.box-shadow { 
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
+}
+
+a.doctor {
+  color: var(--main-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+a.doctor:hover {
+  color: var(--accent-green);
+}
+
+card-body a {
+  align-items: center;
+  justify-content: center;
+}

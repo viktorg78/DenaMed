@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Дентамед</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm fixed-top">
+    <div class="container gradient">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mr-auto" href="/">ДентамеД</a>
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span class="fa fa-home fa-lg"></span>О клинике</a></li>
+              <li class="nav-item"><a class="nav-link" href="./services.html"><span class="fa fa-info fa-lg"></span>Услуги</a></li>
+              <li class="nav-item"><a class="nav-link" href="./price.html"><span class="fa fa-info fa-lg"></span>Прайс</a></li>
+              <li class="nav-item"><a class="nav-link" href="./staff.html"><span class="fa fa-list fa-lg"></span>Наши сотрудники</a></li>
+              <li class="nav-item"><a class="nav-link" href="./feedback.html"><span class="fa fa-list fa-lg"></span>Отзывы</a></li>
+          </ul> 
+      </div>
+    </div>
+  </nav>
+
+  <div class="container feedback">
+    <div class="col">
+      <h4>Оставьте свой отзыв</h4>
+    </div>
+
+    <div class="col-12 col-md-8 feedback">
+      <form>
+        <div class="form-group row">
+          <label for="Firstname" class="col-md-2 col-form-label">Имя</label>
+          <div class="col-md-10">
+            <input type="text" class="form-control" id="Firstname" placeholder="Иван">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="Lastname" class="col-md-2 col-form-label">Фамилия</label>
+          <div class="col-md-10">
+            <input type="text" class="form-control" id="Lastname" placeholder="Иванов">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="telnum" class="col-12 col-md-2 col-form-label">Телефон</label>
+          <div class="col col-md-10">
+            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="+71234567899">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="emailid" class="col-md-2 col-form-label">Отзыв</label>
+          <div class="col-md-10">
+            <textarea class="form-control" placeholder="Ваш отзыв"></textarea>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-3 offset-1">
+          <h5>Меню</h5>
+          <ul class="list-unstyled">
+            <li><a href="/aboutus.html">О клинике</a></li>
+            <li><a href="/services.html">Услуги</a></li>
+            <li><a href="/price.html">Прайс</a></li>
+            <li><a href="/staff.html">Наши специалисты</a></li>
+            <li><a href="/feedback.html">Отзывы</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-7 offset-1">
+          <h5>Наш адрес</h5>
+          <address>
+            Улица Свободы, д. 53<br>
+            Архангельск<br>
+            <br>
+            Тел.: +7 (8182) 65-49-47 <br>
+          </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

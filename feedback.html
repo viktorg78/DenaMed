@@ -12,20 +12,23 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm fixed-top">
+  <nav class="navbar navbar-light navbar-expand-sm fixed-top">
     <div class="container gradient">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand mr-auto" href="/">ДентамеД</a>
+      <div>
+        <a class="navbar-brand mr-auto" href="/">ДентамеД</a>
+        <span class="subtitle">Стоматологическй центр</span>
+      </div>
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="navbar-nav ml-auto">
           <ul class="navbar-nav ml-auto">
-              <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span class="fa fa-home fa-lg"></span>О клинике</a></li>
+              <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-home fa-lg"></span>О клинике</a></li>
               <li class="nav-item"><a class="nav-link" href="./services.html"><span class="fa fa-info fa-lg"></span>Услуги</a></li>
               <li class="nav-item"><a class="nav-link" href="./price.html"><span class="fa fa-info fa-lg"></span>Прайс</a></li>
               <li class="nav-item"><a class="nav-link" href="./staff.html"><span class="fa fa-list fa-lg"></span>Наши сотрудники</a></li>
-              <li class="nav-item"><a class="nav-link" href="./feedback.html"><span class="fa fa-list fa-lg"></span>Отзывы</a></li>
+              <li class="nav-item active"><a class="nav-link" href="./feedback.html"><span class="fa fa-list fa-lg"></span>Отзывы</a></li>
           </ul> 
       </div>
     </div>
@@ -62,12 +65,61 @@
         <div class="form-group row">
           <label for="emailid" class="col-md-2 col-form-label">Отзыв</label>
           <div class="col-md-10">
-            <textarea class="form-control" placeholder="Ваш отзыв"></textarea>
+            <textarea class="form-control" rows="8" name="feedback" id="feedback">
+            </textarea>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <div class="offset-md-2 col-md-10">
+            <button type="submit" class="btn btn-feedback">
+              Отправить 
+            </button>
           </div>
         </div>
       </form>
     </div>
   </div>
+
+ <div class="container">
+    <div class="row align-items-center">
+      <div class="col">
+          <h3 class="left">Предыдущие отзывы наших клиентов</h3>
+      </div>
+    </div>
+    <div class="row">        
+        <div class="col col-md-10">  
+            <h6>02.02.2022 Андрей</h6>          
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper a libero in bibendum.  </p>
+        </div>
+        <div class="col col-md-10">            
+            <h6>26.05.2021 Марина</h6>
+            <p>Mauris sit amet urna tellus. Pellentesque sollicitudin mauris quis lacus tempor dictum. Sed ornare, mi in porta semper, massa nisl mollis risus, in placerat lacus elit ut sapien.</p>
+        </div>
+        <div class="col col-md-10">            
+            <h6>16.07.2005 Василий</h6>
+            <p> Nunc eu tellus elementum, hendrerit orci vitae, aliquet lorem. </p>
+        </div>
+    </div>
+
+    <nav aria-label="...">
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">Назад</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active">
+          <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Вперёд</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  
 
   <footer class="footer">
     <div class="container">

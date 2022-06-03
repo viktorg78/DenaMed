@@ -270,3 +270,65 @@ card-body a {
   background-color: rgb(22, 22, 92);
   display: block; 
 }
+
+.img__container {
+  position: relative;
+}
+
+.img__container>img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img__description {
+  position: absolute;
+  left: 30%;
+  right: 0;
+  bottom: 50%;
+  padding: 15px;
+}
+
+.img__header > a {
+  font-weight: bold;
+  font-size: 2.3em;
+  color: var(--main-text-color);
+}
+
+.img__text {
+  color: var(--main-color);
+   padding-left: 2em;
+   font-size: 1.3em;
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.img__header .subtitle {
+  width: 15em;
+  margin-left: 5em;
+}
+
+@media(max-width: 760px) {
+  .img__header > a {
+  font-weight: bold;
+  font-size: 1.6em;
+  color: var(--main-text-color);
+  }
+
+  .img__description {
+  bottom: 5%;
+  left: 0;
+  }
+
+  .img__header .subtitle {
+  width: 15em;
+  margin-left: 3em;
+  font-size: 0.4em;
+}
+
+.img__text {
+  color: var(--main-color);
+   padding-left: 1em;
+   font-size: 1em;
+}
+}
